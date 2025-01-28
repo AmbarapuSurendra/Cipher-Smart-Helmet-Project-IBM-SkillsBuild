@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:grey;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    font-size: 50px;
+    color:black;
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color:black;
+    font-size=50px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('C:\Users\Surendra\Downloads\WhatsApp Image 2025-01-05 at 15.36.23_f51b2752.jpg') no-repeat center center/cover;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background:saffron;
+}
+
+.feature {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 calc(33.33% - 30px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta button {
+    background: #00c853;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta button:hover {
+    background: #007b34;
+}
+
+footer {
+    background: white;
+    color: green;
+    text-align: center;
+    padding: 10px 0;
+}
